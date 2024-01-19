@@ -2,8 +2,6 @@ import React from "react";
 import NavBar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
 
-import "@fontsource/outfit";
-import "@fontsource/roboto";
 import styles from "./Assets/App.module.css"
 
 import About from "./components/About/About"
