@@ -23,7 +23,7 @@ function NavBar(){
 
                     <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=>{setMenuOpen(false)}}>
                         <li>
-                            <a href="#About">Sobre</a>
+                            <a href="#about">Sobre</a>
                         </li>
                         <li>
                             <a href="#experience">Cursos</a>
@@ -32,7 +32,7 @@ function NavBar(){
                             <a href="#projects">Projetos</a>
                         </li>
                         <li>
-                            <a href="#contacts">Contato</a>
+                            <a href="#contact">Contato</a>
                         </li>
                     </ul>
                 </div>
