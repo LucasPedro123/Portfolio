@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const data = require('./src/Data/cursos.json')
+const data = require('./src/Data/data.json')
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function (app) {
