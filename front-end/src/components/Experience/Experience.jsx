@@ -9,7 +9,7 @@ function Experience() {
   
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experiência</h2>
+      <h2 className={styles.title}>Certificação</h2>
       <div className={styles.content}>
         {
             cursos.map((item) => (
