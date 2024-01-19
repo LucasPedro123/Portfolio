@@ -26,10 +26,13 @@ function NavBar(){
                             <a href="#about">Sobre</a>
                         </li>
                         <li>
-                            <a href="#experience">Cursos</a>
+                            <a href="#experience">Skills</a>
                         </li>
                         <li>
                             <a href="#projects">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="/cursos">Cursos</a>
                         </li>
                         <li>
                             <a href="#contact">Contato</a>

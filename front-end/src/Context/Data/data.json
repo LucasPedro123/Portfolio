@@ -4,7 +4,7 @@
         "Cursos": [
             {
                 "id":1,
-                "curso":"Digital House Brasil",
+                "curso":"Web FullStack",
                 "Instituicao":"Digital House Brasil",
                 "descricao":"Na Digital House, desenvolvi minhas habilidades em Fullstack, trabalhando no desenvolvimento de Front e Back-end. Trabalhei Back-end seguindo um padrão de arquitetura MVC no Node.js, utilizando uns dos principais framework, o Express.js.Nesse sentido, o projeto foi ótimo para eu formar uma experiência profissional, pois sua abordagem era uma implementação de uma API RESTfull. Além disso, foi usado framework adicional chamado Sequelize.js para fazer integração com MySQL. O Front-end foi simples, mas ótimo para criar sólido conhecimento: ele foi uma implementação capaz de consumir dados relacionados à previsão do tempo da Api OpenWeather. Sendo assim, ele foi ótimo para consolidar habilidades em HTML, CSS e JavaScript.",
                 "logo":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUAAAD////c3NysrKzi4uJbW1u6urrS0tJgYGD8/PzOzs4FBQXX19fx8fG1tbXt7e2Xl5eHh4dFRUWNjY0/Pz92dnZ9fX0cHBzl5eVwcHAzMzNWVlalpaX29vacnJxOTk4pKSkPDw9qamrFxcUZSpmzAAACM0lEQVR4nO3bbVeCMBiA4c23nENE07IXLfP//8d4oD65AXXotD3nvr4OONyBCLKMAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0M8nu7Gx+FF3K8lEY/utZ+XD45BtlQM2duv4/4WN4ql/W9NfFU4SKbR2c8i20PXvRbtI8dz9UUu20G7nyw4P1WLzHdp9qqZb+NK71PPrqT2OVddRTLdw3rNME3WWY+jsuWO5fAtbj7Nmh7bxo5h5Yd21kMNo36KLZF4oiaV8GNfRm5fcC8VKFp9qLjRrOU/fI4MqCudyni4igwoKvW/P00t4WEFhbScr3IfHdBSaSb1CER5SUehNJdea8KCSwr0UhtdQUShrOLl1C9FSKLen0+CIlsK7eo0yeFujpVC+EcPf+RRS+DcovEUhhRSOjcJbFFJI4dh+XijPFrqfnuRV22twREuhrHHQ+3zozVJ+xdgHB5UUSsYpPKiisHlzEftZX0fhQVaIvM5XUOjbK+kmMqyg0JhKrjNVZFBDYfNeJnKdUVF4kcuMjc6NUlDYzBxaRYczL/RmL0fQreOLZF5otu0O7TXOp5Gkj6McQOfis2lSLuza68buvGnnJ552Oc5rc/a66LKafO2Ks0X3POdUC4fML20L73umcidbOKCt/iO48HO9kkJri/B77RwKJ3d9rmW1HLat6jj7ueP1T/v8iP8iMea2xjNuYZKJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAifgEfagddAynfZYAAAAASUVORK5CYII=",
@@ -17,7 +17,7 @@
                 "Instituicao":"Escola SENAI 'Ary Torres'",
                 "descricao":"Implantação de serviços de armazenamento e análise, utilizando as  principais tecnologias e conceitos de Banco de Dados do Azure.",
                 "logo":"data:image/png;base64,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",
-                "certificado":"",
+                "certificado":"https://th.bing.com/th/id/OIP.OMqRb0YqM-TCc7CQyxuswgHaFP?w=273&h=193&c=7&r=0&o=5&pid=1.7",
                 "conclusão":""
             },
             {
@@ -60,7 +60,7 @@
                 "curso":"Formação Blockchain Specialist",
                 "Instituicao":"DIO",
                 "descricao":"Criação de Smart Contracts e NFTs com alto nível de segurança utilizando  uma das mais revolucionárias tendências tecnológicas: linguagem de programação Solidity para rede Blockchain.",
-                "logo":"https://ipfs.io/ipfs/QmTUWxEtjTA4Krrxn1Uuh9FAjxLhMpwGTsvmZJ4LvotV3L?filename=6d72a32f-3562-4edd-ac14-71a7d6ec50c2.png",
+                "logo":"https://salvadortech.salvador.ba.gov.br/wp-content/uploads/2022/07/logo.png",
                 "certificado":"https://ipfs.io/ipfs/QmPdGFpeYmafRB7ybSiJ1xQRxA7os1ADtcBUwC9uNrDmWZ?filename=Certificado.png",
                 "conclusão":"07/01/22 a 17/11/22"
             },{
@@ -84,13 +84,13 @@
             "imageSrc": "https://ipfs.io/ipfs/QmeyBeWEu5FKEShUzF3hmTXfXHF2p9xDFpYG4xkk4o1ugr?filename=reactjs.png"
         },{
             "tittle":"Node Js",
-            "imageSrc": "https://ipfs.io/ipfs/QmSgYZnQgK4GF14xfiVq13nRkuM7v2iARtGb15jwQ6QPas?filename=nodejs.png"
+            "imageSrc": "https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"
         },{
             "tittle":"MySQL",
-            "imageSrc": "https://ipfs.io/ipfs/Qmcynrnj3H7NBaozEoNz3y2ZNsodaqbpnGMb2F9BtMUYVo?filename=mysql1.png"
+            "imageSrc": "https://th.bing.com/th/id/R.255b77e251b19a6d0600634d2ff9b006?rik=k3edqLFjWyFC1Q&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmysql%2fmysql_PNG22.png&ehk=ffHItQzD%2fUaKL%2bPOiED3dtDd9YUI%2fJRUzYL5raCZnR8%3d&risl=&pid=ImgRaw&r=0"
         },{
             "tittle":"Power BI",
-            "imageSrc": "https://ipfs.io/ipfs/QmUJvESEjKYRgNJRNtLK7DrXtq3qiX4dkuCkhXumyXAUnw?filename=powerbi.png"
+            "imageSrc": "https://1000logos.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-2013.png"
         },{
             "tittle":"Azure",
             "imageSrc": "https://ipfs.io/ipfs/QmdgCg5sNruajwZA8zjYBFqLUbx3k2WQ8Z2N3oCwYT6CXq?filename=azure.png"
@@ -103,7 +103,27 @@
         },{
             "tittle":"JavaScript",
             "imageSrc": "https://ipfs.io/ipfs/QmbGNNHqTubwsFPoJGNYxBg2M7XxgJhQXzqaxz56Chm9Pw?filename=javascript.png"
-        }]
+        }],
+        "Projetos":[
+            {
+                "id": 1,
+                "title":"Previsão do tempo",
+                "imageSrc":"https://ipfs.io/ipfs/QmcHXMCV9aipNe8pDmWNCDKEPtHFBhmzNqWbEEEsjfy2aQ?filename=Clima%20agora!.png",
+                "description":"Implementação capaz de fazer o cliente consumir dados relacionados à previsão do tempo da Api Open Weather.",
+                "skills": ["HTML", "CSS", "JavaScript"],
+                "demo":"",
+                "source":"https://previsao-do-temp.netlify.app"
+            },{
+                "id": 2,
+                "title":"Dashboard PowerBI",
+                "imageSrc":"https://ipfs.io/ipfs/QmPe4qbt4872szyF5rptGj6RwE2qtpRmoDrjrKVVRxNYWN?filename=Dashboard.png",
+                "description":"Relatório de desempenho logístico, desenvolvido no Power BI. Este relatório oferece uma visão abrangente e interativa das operações logísticas que, por ser assim, pode proporcionar insights valiosos para tomada de decisões.",
+                "skills": ["Power BI", "Excel"],
+                "demo":"",
+                "source":"https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9"
+            }
+        ]
+        
     }
 
 

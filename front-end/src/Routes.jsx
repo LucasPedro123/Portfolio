@@ -1,21 +1,17 @@
 import React from "react";
-import {Switch, Route, Link} from 'react-router-dom';
-import {CursosContextProvider} from "./Context/CarrinhoContexto";
+import {Switch, Router, Route, BrowserRouter} from 'react-router-dom';
+import Home from "./Pages/Home"
+import Cursos1 from "./Pages/Cursos"
+import CursosDetails from "./Pages/CursosDetails"
 
 
-export const Routes = ()=>{
+export const Routes = () => {
     return (
-        <>
-            
-            <Switch>
-                
-                <CursosContextProvider>
-                   
-                </CursosContextProvider>
-
-            </Switch>
-        </>
-
-        
-    )
-}
+    <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/cursos"  component={Cursos1} />
+        </Switch>
+      </BrowserRouter>
+    );
+  };
