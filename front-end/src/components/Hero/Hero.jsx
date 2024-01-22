@@ -5,13 +5,14 @@ function Hero (){
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Olá, eu sou Lucas Pedro!</h1>
+                <h1 className={styles.title}><span>Olá, eu sou Lucas!</span></h1>
+                <h3 className={styles.textAnimate}><span>Bem-vindo ao meu Web site!</span></h3>
                 <p className={styles.description}>
-                    Sou um desenvolvedor Fullstack com sólido conhecimentos em Node.js e React.js. Estudante de tecnologia e inovação, sempre em busca de habilidades e conhecimentos para criar soluções que impactem positivamente à sociedade.
+                    Estudante de tecnologia e inovação, sempre em busca de habilidades e conhecimentos para criar soluções que impactem positivamente à sociedade.
                 </p>
-                <a  className={styles.contact} href="lucaspedrofernandes@gmail.com">Contato E-email</a>
+                <a  className={styles.contact} href="mailto:lucaspedrofernandes@gmail.com">Contato E-mail</a>
             </div>
-            <img className={styles.imageMy}src={require('../../Assets/Images/lucas.jpeg')} alt="" />
+                <img className={styles.imageMy}src={require('../../Assets/Images/lucas.jpeg')} alt="" />
             <div className={styles.topBlur}/>
 
             <div className={styles.bottomBlur}/>

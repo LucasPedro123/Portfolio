@@ -31,7 +31,13 @@
         font-size: 25px;
         color: var(--color-text);
         text-decoration: none;
+        transition: 0.2s;
   }
+  .menuItems a:hover,
+  .menuItems a:active{
+    color:  rgba(25, 55, 109, 0.7)
+  }
+
   .menuBtn {
     display: none;
     
@@ -80,3 +86,5 @@
         z-index: 1;
     }
   }
+
+   

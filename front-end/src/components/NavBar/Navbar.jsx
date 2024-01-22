@@ -15,8 +15,8 @@ function NavBar(){
                         className={styles.menuBtn} 
                         src={ 
                             menuOpen 
-                              ?  require('../../Assets/Images/botao-fechar.png')
-                              :  require('../../Assets/Images/menu-aberto.png')
+                              ?  require('../../Assets/Images/icons/marca-cruzada.png')
+                              :  require('../../Assets/Images/icons/menu-icon.png')
                         }
                         onClick={()=>{setMenuOpen(!menuOpen)}}
                     />
@@ -26,7 +26,7 @@ function NavBar(){
                             <a href="#about">Sobre</a>
                         </li>
                         <li>
-                            <a href="#experience">Skills</a>
+                            <a href="#skills">Skills</a>
                         </li>
                         <li>
                             <a href="#projects">Projetos</a>
@@ -39,6 +39,7 @@ function NavBar(){
                         </li>
                     </ul>
                 </div>
+             
             </nav>
         </>
     )
