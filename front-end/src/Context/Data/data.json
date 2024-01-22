@@ -111,16 +111,16 @@
                 "imageSrc":"https://ipfs.io/ipfs/QmcHXMCV9aipNe8pDmWNCDKEPtHFBhmzNqWbEEEsjfy2aQ?filename=Clima%20agora!.png",
                 "description":"Implementação capaz de fazer o cliente consumir dados relacionados à previsão do tempo da Api Open Weather.",
                 "skills": ["HTML", "CSS", "JavaScript"],
-                "demo":"",
-                "source":"https://previsao-do-temp.netlify.app"
+                "demo":"https://previsao-do-temp.netlify.app",
+                "source":""
             },{
                 "id": 2,
                 "title":"Dashboard PowerBI",
                 "imageSrc":"https://ipfs.io/ipfs/QmPe4qbt4872szyF5rptGj6RwE2qtpRmoDrjrKVVRxNYWN?filename=Dashboard.png",
                 "description":"Relatório de desempenho logístico, desenvolvido no Power BI. Este relatório oferece uma visão abrangente e interativa das operações logísticas que, por ser assim, pode proporcionar insights valiosos para tomada de decisões.",
                 "skills": ["Power BI", "Excel"],
-                "demo":"",
-                "source":"https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9"
+                "demo":"https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9",
+                "source":""
             }
         ]
         
