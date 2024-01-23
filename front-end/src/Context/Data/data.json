@@ -121,6 +121,14 @@
                 "skills": ["Power BI", "Excel"],
                 "demo":"https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9",
                 "source":""
+            },{
+                "id": 3,
+                "title":"E-commerce",
+                "imageSrc":"https://ipfs.io/ipfs/QmfSzVfJCEDtWwSQjXfseNmutg9539CNfRTtqgeeBKdo6z?filename=project.png",
+                "description":"Desenvolvi um projeto em React.js focado em E-commerce, da qual implementei recursos como carrinho de compras, detalhes de produtos e utilizei o contexto do UseContext para aprimorar a experiência do usuário.",
+                "skills": ["React.js", "bootstrap", "SCSS"],
+                "demo":"https://65af1bb012f1c381d79ac15e--e-commercetestproject.netlify.app/",
+                "source":""
             }
         ]
         
