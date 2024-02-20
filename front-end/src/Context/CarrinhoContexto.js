@@ -11,7 +11,6 @@ function CursosContextProvider( props ){
         setData(data)
       }, []);
     
-      console.log(cursos)
     return(
         <CursosContext.Provider value={{cursos, setData}}>
           {props.children}

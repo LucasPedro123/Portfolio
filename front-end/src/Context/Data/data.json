@@ -1,6 +1,13 @@
 [
     
     {
+        "Artigos":[{
+            "id": 1,
+            "imagem": "https://www.wallpapertip.com/wmimgs/237-2376655_blockchain-wallpaper.jpg",
+            "titulo": "EM ÉPOCA DE GLOBALIZAÇÃO, O CONHECIMENTO ACADÊMICO É INDISPENSÁVEL",
+            "assunto": "Hoje o atual mundo da era-digital, vive em um contexto impulsionado pela globalização. Esse fenômeno globalizado de informações, interconexões e ausência de fronteiras entre culturas, pode caracterizar um aumento de conhecimento muito rápido e mudanças no padrão de vida das pessoas, sendo necessário desenvolvimento de habilidades para usufruir dos ganhos tecnológicos. Na década de 90, quando o cientista, físico e professor britânico Tim Berners-Lee desenvolveu o browser (navegador) ou Word Wide Web (Rede Mundial de Computadores) a aproximação entre pessoas, culturas e informações se tornou uma realidade.O mundo vem ganhando, com o tempo, brutalmente produtividade: aumento da oferta por bens de consumo e aumento da oferta por bens de capital - que é a produção para bens de consumo -, alavancando, assim, a qualidade de vida da sociedade através da mecanização dos processos industriais. Em face disso, diminui a mão-de-obra para determinados setores, no entanto, aumenta para outros setores responsáveis pelo gerenciamento da automação de insumos industriais. Como no caso do advento da IA (Inteligência Artificial), utilizando um sistema visão computacional de inspeção contínua de produtos para detecção de anomalias, sem a necessidade da detecção manual. Deste modo, torna-se imprescindível profissionais qualificados para o ingresso dessas novas propensões em áreas industriais.Em contrapartida, muitas vezes as pessoas não acompanham o volume desmesurado de conhecimentos e habilidades ou não possuem acesso à recentes bens de consumo gerada pelas novas tendências tecnológicas. Nesses cenários, as pessoas ficam retrasadas e pode, até mesmo, dificultar a vivência nessa época digital, como o exemplo do vovozinho que é dependente para mexer no celular, ausência de conhecimento, ou alto custo para acessar os itens tecnológicos, perda do poder de compra. Tendo em vista esses aspectos, para esquivar dessas problemáticas, é essencial a instância máxima da nação, o governo, investir na formação acadêmica das pessoas a fim de acompanhar os novos padrões tecnológicos, por outro lado, a redução do poder aquisitivo deve-se ao fato da diluição da moeda, sendo vital a autoridade incumbida controlar a inflação. Dessa forma, o conhecimento e o potencial de cada indivíduo podem ser alcançados e o acesso a bens para materiais para população realizado."
+        }],
+        
         "Cursos": [
             {
                 "id":1,
@@ -81,10 +88,10 @@
             "imageSrc": "https://ipfs.io/ipfs/QmRhQJqTfeCgxDfdKAhWZYurFjpui8WAogsW9xhqKvFknj?filename=css-3.png"
         },{
             "tittle":"React Js",
-            "imageSrc": "https://ipfs.io/ipfs/QmeyBeWEu5FKEShUzF3hmTXfXHF2p9xDFpYG4xkk4o1ugr?filename=reactjs.png"
+            "imageSrc": "https://th.bing.com/th/id/R.ba27e31ed7707eb0383f30e47b473001?rik=Qkpdtnu%2bF75LNw&riu=http%3a%2f%2fassets.stickpng.com%2fthumbs%2f62a74dd1223343fbc2207d00.png&ehk=%2fhV4h1AscBHpKt3xrTr07ryFEsRkHxP7bplx6hnsTgc%3d&risl=&pid=ImgRaw&r=0"
         },{
             "tittle":"Node Js",
-            "imageSrc": "https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"
+            "imageSrc": "https://i.postimg.cc/nr9bgbmx/nodejs1.png"
         },{
             "tittle":"MySQL",
             "imageSrc": "https://th.bing.com/th/id/R.255b77e251b19a6d0600634d2ff9b006?rik=k3edqLFjWyFC1Q&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmysql%2fmysql_PNG22.png&ehk=ffHItQzD%2fUaKL%2bPOiED3dtDd9YUI%2fJRUzYL5raCZnR8%3d&risl=&pid=ImgRaw&r=0"
@@ -93,22 +100,22 @@
             "imageSrc": "https://1000logos.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-2013.png"
         },{
             "tittle":"Azure",
-            "imageSrc": "https://ipfs.io/ipfs/QmdgCg5sNruajwZA8zjYBFqLUbx3k2WQ8Z2N3oCwYT6CXq?filename=azure.png"
+            "imageSrc": "https://i.postimg.cc/Gp3pNtm1/azure.png"
         },{
             "tittle":"Solidity",
-            "imageSrc": "https://ipfs.io/ipfs/QmdR6SG1ns5nmKXK3Sywjc2Ex2g4SEbK84zHpZsZuHggGq?filename=1200px-Solidity_logo.svg.png"
+            "imageSrc": "https://i.postimg.cc/jjffxLrn/1200px-Solidity-logo-svg.png"
         },{
             "tittle":"TypeScript",
             "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
         },{
             "tittle":"JavaScript",
-            "imageSrc": "https://ipfs.io/ipfs/QmbGNNHqTubwsFPoJGNYxBg2M7XxgJhQXzqaxz56Chm9Pw?filename=javascript.png"
+            "imageSrc": "https://i.postimg.cc/cJGHchV6/javascript.png"
         }],
         "Projetos":[
             {
                 "id": 1,
                 "title":"Previsão do tempo",
-                "imageSrc":"https://ipfs.io/ipfs/QmcHXMCV9aipNe8pDmWNCDKEPtHFBhmzNqWbEEEsjfy2aQ?filename=Clima%20agora!.png",
+                "imageSrc":"https://i.postimg.cc/bwzV2fvv/Clima-agora.png",
                 "description":"Implementação capaz de fazer o cliente consumir dados relacionados à previsão do tempo da Api Open Weather.",
                 "skills": ["HTML", "CSS", "JavaScript"],
                 "demo":"https://previsao-do-temp.netlify.app",
@@ -116,7 +123,7 @@
             },{
                 "id": 2,
                 "title":"Dashboard PowerBI",
-                "imageSrc":"https://ipfs.io/ipfs/QmPe4qbt4872szyF5rptGj6RwE2qtpRmoDrjrKVVRxNYWN?filename=Dashboard.png",
+                "imageSrc":"https://i.postimg.cc/Kzg0yZ00/Dashboard.png",
                 "description":"Relatório de desempenho logístico, desenvolvido no Power BI. Este relatório oferece uma visão abrangente e interativa das operações logísticas que, por ser assim, pode proporcionar insights valiosos para tomada de decisões.",
                 "skills": ["Power BI", "Excel"],
                 "demo":"https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9",
@@ -124,11 +131,29 @@
             },{
                 "id": 3,
                 "title":"E-commerce",
-                "imageSrc":"https://ipfs.io/ipfs/QmfSzVfJCEDtWwSQjXfseNmutg9539CNfRTtqgeeBKdo6z?filename=project.png",
+                "imageSrc":"https://i.postimg.cc/9f0xJPZ5/project.png",
                 "description":"Desenvolvi um projeto em React.js focado em E-commerce, da qual implementei recursos como carrinho de compras, detalhes de produtos e utilizei o contexto do UseContext para aprimorar a experiência do usuário.",
                 "skills": ["React.js", "bootstrap", "SCSS"],
                 "demo":"https://65af1bb012f1c381d79ac15e--e-commercetestproject.netlify.app/",
                 "source":""
+            },
+            {
+                "id": 4,
+                "title":"Le Scone",
+                "imageSrc":"https://camo.githubusercontent.com/520355a1639d68f69bb02c44ddef756868d0a10a6cf3e0303c53c8b3a512ae74/68747470733a2f2f692e706f7374696d672e63632f3174466d3858724c2f436170747572612d64652d54656c612d3630312e706e67",
+                "description":"Desenvolvido completamente com HTML5 e CSS3, o Le Scone apresenta um design elegante e uma experiência intuitiva. Este projeto foi feito para destacar a beleza da simplicidade, com ênfase na qualidade do site.",
+                "skills": ["HTML5", "CSS3"],
+                "demo":"https://le-scone-gourmet.netlify.app/",
+                "source":"https://github.com/LucasPedro123/fc-scone"
+            },
+            {
+                "id": 4,
+                "title":"Brazil Express",
+                "imageSrc":"https://i.postimg.cc/43nj0RV3/Captura-de-Tela-603.png",
+                "description":"Feito no Figma e construído utilizando HTML e CSS, o Brasil Express apresenta um design simples mas intuitivo e objetivo.",
+                "skills": ["HTML5", "CSS3", "Figma"],
+                "demo":"https://le-scone-gourmet.netlify.app/",
+                "source":"https://github.com/LucasPedro123/template-logistics"
             }
         ]
         
