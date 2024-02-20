@@ -1,22 +1,18 @@
+// index.js
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import App from './App';
-import styles from "./Assets/index.css"
-import {BrowserRouter} from 'react-router-dom'
-import {CursosContextProvider} from "./Context/CarrinhoContexto"
-import {Routes} from './Routes'
+import "./Assets/index.css"; // Importe o arquivo CSS diretamente
+import { BrowserRouter } from 'react-router-dom';
+import { CursosContextProvider } from "./Context/CarrinhoContexto";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <CursosContextProvider>
       <BrowserRouter>
-        <div className={styles}>
-          <App />
-        </div>
+        <App />
       </BrowserRouter>
     </CursosContextProvider>
-    
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-
