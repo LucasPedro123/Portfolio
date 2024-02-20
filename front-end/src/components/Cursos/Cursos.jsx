@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from '../NavBar/Navbar'
+import NavBar from './Navbar/Navbar'
 import styles from "./Curso.module.css"
 import { useContext } from "react";
 import {Link} from 'react-router-dom'
@@ -11,34 +11,27 @@ function Cursos (){
   const { cursos, setData } = useContext(CursosContext);
     
     return ( 
-        <section className={styles.container} id="about">
-            <h2 className={styles.title}>Cursos</h2>
-            <div className={styles.content}>
-                
-                <ul className={styles.aboutItems}>
-                        <div >
-                            {
-                                cursos.map((item) => (
-                                    <div >
-                                        {item.Cursos.map((e) => (
-                                            <div >
-                                                <li className={styles.aboutItem}>
-                                                <div className={styles.skillImageContainer}>
-                                                    <Link to={`/cursos/${e.id}`}>
-                                                        <img src={e.logo} className={styles.skillImage}alt="" />
-                                                    </Link>
-                                                </div>
-                                                </li>
-                                                <h5>{e.curso}</h5>
-                                            </div>
-                                        ))}
-                                    </div>
-                                ))
-                            }
-                    </div>
-                </ul>
-            </div>
-        </section>
+        <section className={styles.container}>
+        <NavBar/>
+        <div className={styles.articleList}>
+            {cursos.map((curso) => (
+                <div key={curso.id}>
+                    {curso.Artigos.map((article) => (
+                        <div key={article.id} className={styles.articleItem} >
+                            <Link to={`/artigos/${article.id}`}>
+                                <img src={article.imagem}  />
+                                <h3 >{article.titulo}</h3>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            ))}
+        </div>
+        <div className={styles.topBlur}/>
+
+        <div className={styles.bottomBlur}/>
+
+    </section>
     )
 }
 

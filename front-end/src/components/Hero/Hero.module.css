@@ -12,7 +12,7 @@
     margin-right: 10%;
   }
 
-  .textAnimate span {
+  .textAnimate code {
     display: inline-block;
     font-family: 'Fira Code', monospace;
     overflow: hidden;
@@ -102,7 +102,7 @@
       margin-left: 25px;
       margin-right: 0px;
     }
-    .textAnimate span {
+    .textAnimate code {
       font-size: 0.7em;
     }
     .textAnimate::after {
@@ -138,7 +138,7 @@
 
   .imageMy {
     border-radius: 100%;
-    width: 50%;
+    width: 30%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;
@@ -159,7 +159,7 @@
       transform: translate(0, -0px);
     }
   }
-  
+ 
   .topBlur {
     position: absolute;
     width: 50vw;
@@ -176,18 +176,19 @@
   
   .bottomBlur {
     position: absolute;
-    width: 70vw;
-    height: 50vw;
+    width: 80vw;
+    height: 60vw;
     min-width: 350px;
-    min-width: 250px;
+    min-height: 250px;
     top: 246px;
-    right: -25vw;
+    right: -11vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
   }
   
+
   @media screen and (max-width: 830px) {
     .container {
       flex-direction: column-reverse;

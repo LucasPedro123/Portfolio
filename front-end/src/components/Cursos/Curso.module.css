@@ -1,147 +1,125 @@
 @import '../../Assets/vars.css';
-
-.skillImage{
-  width: 25%;
-}
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800;9008& display=swap");
 
 
 
 .container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutImg {
-  width: 35%;
-}
-
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
-  padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(62, 111, 127, 0.539) 0%,
-    rgba(173, 183, 196, 0.474) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
-}
-
-.aboutItem:hover {
-  background-size: 100% 100%;
-}
-
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 25px;
-}
-
-@media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+   
+    z-index: 1;
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
   }
 
-  .content {
-    flex-direction: column;
-  }
 
-  .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
   
-  .aboutItem:hover {
-    background-size: 100% 100%;
+  .topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: -1;
   }
   
-  .aboutItem h3 {
-    font-size: 25px;
-    font-weight: 600;
+  .bottomBlur {
+    width: 70vw;
+    height: 50vw;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
   }
-  
-  .aboutItem p {
-    font-size: 25px;
-  }
-
-  .aboutItemImg{
-    width: 50px;
-  }
-  
   
   @media screen and (max-width: 830px) {
     .container {
-      background-color: transparent;
-      padding-left: 0;
-      padding-right: 0;
+      flex-direction: column-reverse;
+      
     }
-    
-    .aboutItemImg{
-        width: 30px;
-      }
-
+  
     .content {
-      flex-direction: column;
-    }
-  
-    .aboutImg {
-      display: none;
-    }
-  
-    .aboutItems {
-      margin-top: 29px;
-    }
-  
-    .aboutItem {
-      padding-left: 0;
-      padding-right: 0;
+      align-items: center;
     }
   }
+  .articleList {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os itens sejam envolvidos em várias linhas */
+    justify-content: flex-start; /* Centraliza os itens horizontalmente */
+}
 
-  
+.articleItem {
+    width: 300px; /* Define a largura fixa para os itens */
+    height: 300px; /* Define a altura fixa para os itens */
+    background: linear-gradient(rgba(121, 132, 150, 0.7), rgba(41, 48, 63, 0.7));
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+.articleItem img{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.articleItem:hover {
+    transform: translateY(-5px);
+}
+
+.articleItem a {
+  text-decoration: none; /* Remove a linha do link */
+  color: var(--color-text);
+  display: block;
+}
+.titulo{
+  align-items: center;
+        transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+.productDetails {
+  padding: 60px;
+  padding-top: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 80px auto; /* Centraliza horizontalmente */
+  max-width: 800px; /* Largura máxima da seção */
+  width: calc(100% - 40px); /* Define a largura da seção */
+}
+
+.productDetails h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.productDetails h3 {
+  font-size: 22px;
+  color: #fcfafa;
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.productDetails p {
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffffb5;
+}

@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import styles from "./NavBar.module.css"
 import {Link} from "react-router-dom"
 
-import {getImageUrl} from '../../Service/utils'
 
 function NavBar(){
     const [menuOpen, setMenuOpen] = useState(false)
@@ -10,33 +9,33 @@ function NavBar(){
     return (
         <>
             <nav className={styles.navbar}>
-                <a className={styles.title}href="/">Portfólio</a>
+                <Link className={styles.title}to="/">Portfólio</Link>
                 <div className={styles.menu}>
                     <img 
                         className={styles.menuBtn} 
                         src={ 
                             menuOpen 
-                              ?  require('../../Assets/Images/icons/marca-cruzada.png')
-                              :  require('../../Assets/Images/icons/menu-icon.png')
+                              ?  require('../../../Assets/Images/icons/marca-cruzada.png')
+                              :  require('../../../Assets/Images/icons/menu-icon.png')
                         }
                         onClick={()=>{setMenuOpen(!menuOpen)}}
                     />
 
                     <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=>{setMenuOpen(false)}}>
-                        <li>
-                            <a href="#about">Sobre</a>
+                    <li>
+                            <Link to="/">Sobre</Link>
                         </li>
                         <li>
-                            <a href="#skills">Skills</a>
+                            <Link to="/">Skills</Link>
                         </li>
                         <li>
-                            <a href="#projects">Projetos</a>
+                            <Link to="/">Projetos</Link>
                         </li>
                         <li>
-                            <Link to="/artigos">Artigos</Link>
+                            <Link to="/cursos">Artigos</Link>
                         </li>
                         <li>
-                            <a href="#contact">Contato</a>
+                            <Link to="/">Contato</Link>
                         </li>
                     </ul>
                 </div>
