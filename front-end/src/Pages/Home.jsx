@@ -1,23 +1,27 @@
-import React from "react";
+import {React, Suspense, lazy} from "react";
 
 import styles from "../Assets/App.module.css"
 
-import NavBar from "../components/NavBar/Navbar";
-import Hero from "../components/Hero/Hero";
-import About from "../components/About/About"
-import Experience from "../components/Experience/Experience";
-import Projects from "../components/Projects/Project"
-import Contact from "../components/Contact/Contact";
+const NavBar = lazy(()=> import("../components/NavBar/Navbar"));
+const Hero = lazy(()=> import("../components/Hero/Hero"));
+const About = lazy(()=> import("../components/About/About"));
+const Experience = lazy(()=> import("../components/Experience/Experience"));
+const Projects = lazy(()=> import("../components/Projects/Project"));
+const Contact = lazy(()=> import("../components/Contact/Contact"));
+
+
 
 function Home() {
   return (
     <div className={styles.App}>
-        <NavBar/>
-        <Hero />
-        <About/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
+        <Suspense fallback={<p>Carregando...</p>}>
+          <NavBar/>
+          <Hero />
+          <About/>
+          <Experience/>
+          <Projects/>
+          <Contact/>
+        </Suspense>
     </div>
   );
 }
