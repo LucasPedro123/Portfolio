@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import Cursos from "../components/Cursos/Cursos";
+const Cursos = lazy(()=> import("../components/Cursos/Cursos"));
 
 
 
