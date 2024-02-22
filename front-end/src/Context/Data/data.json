@@ -152,7 +152,7 @@
                 "imageSrc":"https://i.postimg.cc/43nj0RV3/Captura-de-Tela-603.png",
                 "description":"Feito no Figma e construído utilizando HTML e CSS, o Brasil Express apresenta um design simples mas intuitivo e objetivo.",
                 "skills": ["HTML5", "CSS3", "Figma"],
-                "demo":"https://le-scone-gourmet.netlify.app/",
+                "demo":"https://brazilexpress.netlify.app/",
                 "source":"https://github.com/LucasPedro123/template-logistics"
             }
         ]
