@@ -12,7 +12,7 @@ function Hero (){
                 </p>
                 <a  className={styles.contact} href="mailto:lucaspedrofernandes@gmail.com">Contato E-mail</a>
             </div>
-                <img className={styles.imageMy}src={require('../../Assets/Images/myPhoto.jpeg')} alt="" />
+                <img className={styles.imageMy}src={require('../../Assets/Images/lucas.jpeg')} alt="" />
             <div className={styles.topBlur}/>
             <div className={styles.bottomBlur}/>
             <div className={styles.bottomBlur2}/>
