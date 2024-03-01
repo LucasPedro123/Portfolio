@@ -161,8 +161,8 @@
                 "imageSrc":"https://raw.githubusercontent.com/LucasPedro123/hambuguer-shop/main/src/Imgs/Deburguer-shop.png",
                 "description":"Feito para mostrar uma seleção de hambúrgueres e bebidas e localização, o Deburguer usa um layout responsivo que proporciona uma experiência usuário agradável com um design limpo, atrativo e intuitivo.",
                 "skills": ["HTML5", "CSS3"],
-                "demo":"https://brazilexpress.netlify.app/",
-                "source":"https://github.com/LucasPedro123/template-logistics"
+                "demo":"https://deburguer-shop.netlify.app/",
+                "source":"https://github.com/LucasPedro123/hambuguer-shop"
             }
         ]
         
