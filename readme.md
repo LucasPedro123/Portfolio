@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://65b496485b97155a998098ba--lucaspedrofernandes.netlify.app/
+https://portfolio-lucaspedro.vercel.app/
 
 ## Tecnologias Utilizadas
 
@@ -15,7 +15,7 @@ https://65b496485b97155a998098ba--lucaspedrofernandes.netlify.app/
 
 ## Descrição
 
-Meu portfólio, desenvolvido com React.js, destaca o quão podemos aproveitar ao máximo a Context API. 
+Meu portfólio, desenvolvido com React.js, destaca a utilização do Context API. 
 Ao utilizar esse recurso, os dados fluem de forma mais eficiente por todos os componentes, eliminando 
 a necessidade de passá-los através de props. Explore este projeto para ver como o Context pode ser um 
 poderoso facilitador, permitindo a gestão tranquila de estados, preferências e, até mesmo, layouts, 
@@ -40,6 +40,4 @@ sem comprometer a integridade do sistema.
 ---
 
 ### Explore meu portfólio!
-Veja a experiência de desenvolvimento React.js, a qual destaco 
-a utilização de Context API que transforma complexidade em simplicidade, proporcionando 
-uma navegação fluida e dinâmica pelos projetos.
+Veja a experiência de desenvolvimento React.js, e conheça minhas principais habilidades
